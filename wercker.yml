@@ -1,5 +1,4 @@
-#box: lorentzca/rocketbox
-box: wercker/default
+box: lorentzca/rocketbox
 build:
     steps:
         - script:
@@ -12,4 +11,4 @@ build:
               find / | grep rkt
         - script:
             name: rkt help
-            code: rkt --help
+            code: /etc/rkt --help
