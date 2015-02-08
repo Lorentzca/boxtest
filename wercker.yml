@@ -5,7 +5,7 @@ build:
             name: pwd
             code: pwd
         - script:
-            name: ls
+            name: ls, find
             code: |
               ls -l /
               sudo find / | grep rkt
