@@ -1,6 +1,4 @@
-box: wercker/default
-services:
-    - lorentzca/rocketbox
+box: lorentzca/rocketbox
 build:
     steps:
         - script:
