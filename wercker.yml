@@ -6,7 +6,9 @@ build:
             code: pwd
         - script:
             name: ls
-            code: ls -R /
+            code: |
+              ls -l /
+              find / | grep rkt
         - script:
             name: rkt help
             code: rkt --help
