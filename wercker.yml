@@ -6,7 +6,7 @@ build:
             code: pwd
         - script:
             name: ls
-            code: ls -R /pipeline
+            code: ls -R /
         - script:
             name: rkt help
             code: rkt --help
