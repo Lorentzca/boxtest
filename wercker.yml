@@ -1,0 +1,8 @@
+box: wercker/default
+services:
+    - lorentzca/rocketbox
+build:
+    steps:
+        - script:
+            name: rkt help
+            code: rocket/rkt --help
