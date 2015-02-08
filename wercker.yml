@@ -4,8 +4,8 @@ services:
 build:
     steps:
         - script:
-            name: rkt help
-            code: rocket/rkt --help
-        - script:
             name: pwd
             code: pwd
+        - script:
+            name: rkt help
+            code: rocket/rkt --help
