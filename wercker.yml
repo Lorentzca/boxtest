@@ -5,6 +5,7 @@ build:
     steps:
         - script:
             name: rkt help
-            code: \
-              pwd
-              rocket/rkt --help
+            code: rocket/rkt --help
+        - script:
+            name: pwd
+            code: pwd
