@@ -6,4 +6,4 @@ build:
             code: pwd
         - script:
             name: rkt help
-            code: ./rkt --help
+            code: rkt --help
