@@ -5,5 +5,8 @@ build:
             name: pwd
             code: pwd
         - script:
+            name: ls
+            code: ls
+        - script:
             name: rkt help
             code: rkt --help
